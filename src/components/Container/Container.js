@@ -1,5 +1,3 @@
-import "./container.css";
-
 export default function Container({ children }) {
-  return <div className="main-container">{children}</div>;
+  return <div className="forrest__container">{children}</div>;
 }

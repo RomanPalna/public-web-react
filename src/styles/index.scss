@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import '../../node_modules/normalize.css/normalize.css';
+@import './utils/main-styles.scss';
+@import './main-page/header.scss';
+@import './main-page/nav-buttons.scss';
+@import './main-page/social.scss';
+
+@import './non-alcohol/non-alcohol.scss';
+@import "./drinks/hot-drinks.scss";
+@import './main-page/pageNotFound.scss';
+@import './modal/modal.scss';

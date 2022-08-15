@@ -1,0 +1,124 @@
+.forrest {
+    position: relative;
+    background-color: #1E1E1E;
+    height: 100%;
+    // width: 100vw;
+    align-items: center;
+    overflow: auto;
+    padding: 60px 15px;
+    
+}
+
+.forrest__coffee {
+    // position: sticky;
+    background-color: #1E1E1E;
+    color: #E4E4E4;
+    font-family: 'Montserrat';
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    // overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 520px;
+    max-height: 600px;
+    
+    
+
+    &--head {
+     
+        text-transform: uppercase;
+        background-color: inherit;
+        color: inherit;
+        text-align: left;
+        padding: 15px 0;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+            
+    }
+
+    &--name {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &--litres {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 15px;
+    letter-spacing: 0em;
+    }
+
+    &--cost {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+
+     &--backBtn {
+        position: absolute;
+        top: 10%;
+        width: 10%;
+        color: #E4E4E4;
+        background-color: #1E1E1E;
+        border-style: none;
+    }
+ 
+}
+
+th {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+thead {
+    // position: sticky;
+    top: 0;
+    background-color: #1E1E1E;
+    color: #E4E4E4;
+   
+}
+
+td {
+    text-align: center;
+}
+
+thead th:nth-child(1) {
+    width: 70%;
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+th,
+td {
+    padding: 7px;
+}
+
+tr {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0em;
+        
+}
