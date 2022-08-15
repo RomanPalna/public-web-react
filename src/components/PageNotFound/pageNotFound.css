@@ -1,0 +1,15 @@
+.page_not_found {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page_title {
+    font-size: 700;
+    font-weight: bold;
+}
+
+.page_img {
+    width: 400px;
+    height: 400px;
+}

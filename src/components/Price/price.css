@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.price {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.price_input {
+    position: absolute;
+    transform: scale(0);
+}
+
+.price_input:checked ~ .checkbox {
+    transform: rotate(45deg);
+    width: 20px;
+    margin-left: 16px;
+    border-color: #24c78e;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0;
+}
+
+.checkbox {
+    display: block;
+    width: inherit;
+    height: inherit;
+    border: 3px solid #434343;
+    border-radius: 6px;
+    transition: all 0.375s;
+}
+
+.price_item--form {
+   display: block;
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+   margin-left: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+  
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+tbody {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.price_dicription {
+    margin: 20px 0;
+}
+
+.price_quantity {
+    text-align: right;
+}
+
+.price_name {
+    text-align: left;
+}
+
+.price_settings {
+    position: relative;
+    
+    text-align: center;
+}
