@@ -40,5 +40,4 @@ function App() {
   );
 }
 
-//commit
 export default App;
